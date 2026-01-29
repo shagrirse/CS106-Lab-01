@@ -9,7 +9,7 @@
  */
 int isTmin(int x)
 {
-    return 2;
+    return !(0x80000000 ^ x);
 }
 
 int test_isTmin(int x)

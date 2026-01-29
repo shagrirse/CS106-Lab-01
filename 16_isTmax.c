@@ -9,7 +9,7 @@
  */
 int isTmax(int x)
 {
-    return 2;
+    return !((1 << 31) ^ ~x);
 }
 
 int test_isTmax(int x)
